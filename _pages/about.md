@@ -479,7 +479,7 @@ summary {
         DSANet addresses motion artifacts caused by misalignment between mask and live images in DSA imaging. It uses a coarse-to-fine pipeline: an initial DSA imaging stage generates preliminary vessel images, and a pseudo aligned dataset is then constructed to train a dynamic snake convolution attention network for artifact suppression and vessel detail preservation.
         <div class="pub-figure multi">
           <img src="/images/publications/dsanet-fig1.jpg" alt="DSANet coarse-to-fine imaging framework">
-          <img src="/images/publications/dsanet-fig2.jpg" alt="DSANet dynamic snake convolution attention architecture">
+          <img src="/images/publications/dsanet-fig2-v2.jpg" alt="DSANet dynamic snake convolution attention architecture">
         </div>
       </div>
     </details>
