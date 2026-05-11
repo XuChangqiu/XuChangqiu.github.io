@@ -434,6 +434,7 @@ summary {
     <div class="metric-row">
       <span class="metric">CAS Q1 / 中科院一区</span>
       <span class="metric">Major Revision</span>
+      <span class="metric">Student First Author</span>
       <a class="metric" href="https://github.com/DarkBreakerZero/PSER">Code</a>
     </div>
 
@@ -471,6 +472,7 @@ summary {
     <div class="metric-row">
       <span class="metric">CAS Q1 / 中科院一区</span>
       <span class="metric">Under Review</span>
+      <span class="metric">Second Author</span>
     </div>
 
     <details>
@@ -543,6 +545,7 @@ summary {
     <div class="metric-row">
       <span class="metric">CCF C</span>
       <span class="metric">Under Review</span>
+      <span class="metric">Fourth Author</span>
     </div>
 
     <details>
@@ -578,6 +581,7 @@ summary {
     <div class="metric-row">
       <span class="metric">CCF C</span>
       <span class="metric">Under Review</span>
+      <span class="metric">Third Author</span>
     </div>
 
     <details>
