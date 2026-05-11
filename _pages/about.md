@@ -243,6 +243,11 @@ redirect_from:
   max-width: 900px;
 }
 
+.pub-figure.multi {
+  display: grid;
+  gap: 14px;
+}
+
 .pub-figure img {
   display: block;
   width: 100%;
@@ -421,8 +426,10 @@ summary {
       A progressive structure-enhanced restoration framework for sparse-view 3D-DSA that combines coarse 3D restoration and fine 2.5D refinement to suppress artifacts and recover vascular continuity.
     </div>
 
-    <div class="pub-figure">
-      <img src="/images/publications/pser.jpg" alt="PSER framework overview">
+    <div class="pub-figure multi">
+      <img src="/images/publications/pser-fig1.jpg" alt="PSER vascular morphology motivation">
+      <img src="/images/publications/pser-fig2.jpg" alt="PSER progressive restoration framework">
+      <img src="/images/publications/pser-fig3.jpg" alt="PSER network architecture">
     </div>
 
     <div class="metric-row">
@@ -458,8 +465,9 @@ summary {
       A coarse-to-fine DSA imaging network that uses pseudo aligned data and dynamic snake convolution attention to suppress motion artifacts while preserving vascular structure.
     </div>
 
-    <div class="pub-figure">
-      <img src="/images/publications/dsanet.jpg" alt="DSANet architecture">
+    <div class="pub-figure multi">
+      <img src="/images/publications/dsanet-fig1.jpg" alt="DSANet coarse-to-fine imaging framework">
+      <img src="/images/publications/dsanet-fig2.jpg" alt="DSANet dynamic snake convolution attention architecture">
     </div>
 
     <div class="metric-row">
