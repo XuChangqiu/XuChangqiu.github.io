@@ -10,6 +10,18 @@
     z-index: 10000;
 }
 
+.site-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.site-logo {
+    width: 2.25rem;
+    height: 2.25rem;
+    object-fit: contain;
+}
+
 .bg-bottom {
     background-color: var(--h-title-color);
 }
