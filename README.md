@@ -2,7 +2,7 @@
 
 Personal academic homepage for Changqiu Xu.
 
-This site is built from the open-source template **[senli1073/academic-homepage-template](https://github.com/senli1073/academic-homepage-template)**.
+This site is built with a Jekyll academic homepage template.
 
 
 ## License

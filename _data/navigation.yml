@@ -1,0 +1,13 @@
+# main links
+main:
+  - title: "Education"
+    url: /#education
+
+  - title: "Publications"
+    url: /#publications
+
+  - title: "Project"
+    url: /#research-project
+
+  - title: "Awards"
+    url: /#awards
