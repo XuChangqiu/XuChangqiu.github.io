@@ -443,7 +443,6 @@ summary {
         This work targets severe streak artifacts and vascular structure degradation in sparse-view 3D-DSA. The framework first performs coarse 3D restoration with weighted convolution and wavelet-domain enhancement, then applies a 2.5D refinement network with dynamic snake convolution to better preserve tortuous vascular structures and fine vessel continuity.
         <div class="pub-figure multi">
           <img src="/images/publications/pser-fig1.jpg" alt="PSER vascular morphology motivation">
-          <img src="/images/publications/pser-fig2.jpg" alt="PSER progressive restoration framework">
           <img src="/images/publications/pser-fig3.jpg" alt="PSER network architecture">
         </div>
       </div>
