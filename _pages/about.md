@@ -424,7 +424,7 @@ summary {
     </div>
 
     <div class="pub-venue">
-      IEEE Journal of Biomedical and Health Informatics (CAS Q1 / 中科院一区), major revision
+      IEEE Journal of Biomedical and Health Informatics (JCR Q1 / 中科院一区), major revision
     </div>
 
     <div class="pub-short">
@@ -432,7 +432,7 @@ summary {
     </div>
 
     <div class="metric-row">
-      <span class="metric">CAS Q1 / 中科院一区</span>
+      <span class="metric">JCR Q1 / 中科院一区</span>
       <span class="metric">Major Revision</span>
       <span class="metric">Student First Author</span>
       <a class="metric" href="https://github.com/DarkBreakerZero/PSER">Code</a>
@@ -462,7 +462,7 @@ summary {
     </div>
 
     <div class="pub-venue">
-      IEEE Journal of Biomedical and Health Informatics (CAS Q1 / 中科院一区), under review
+      IEEE Journal of Biomedical and Health Informatics (JCR Q1 / 中科院一区), under review
     </div>
 
     <div class="pub-short">
@@ -470,7 +470,7 @@ summary {
     </div>
 
     <div class="metric-row">
-      <span class="metric">CAS Q1 / 中科院一区</span>
+      <span class="metric">JCR Q1 / 中科院一区</span>
       <span class="metric">Under Review</span>
       <span class="metric">Second Author</span>
     </div>
