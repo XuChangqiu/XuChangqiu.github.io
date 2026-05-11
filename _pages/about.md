@@ -591,5 +591,14 @@ summary {
         Research output in conference proceedings
       </div>
     </div>
+
+    <div class="award-card">
+      <div class="award-name">University Honors</div>
+      <div class="award-meta">
+        Merit Student<br>
+        First-Class Scholarship<br>
+        National Encouragement Scholarship
+      </div>
+    </div>
   </div>
 </div>
