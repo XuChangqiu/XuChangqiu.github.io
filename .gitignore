@@ -4,6 +4,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 longfei-xiao.github.io-main/
+homepage-used-files*/
 *.pdf
 *.docx
 

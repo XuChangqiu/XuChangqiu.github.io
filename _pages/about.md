@@ -411,6 +411,13 @@ summary {
       <span class="metric">Major Revision</span>
       <a class="metric" href="https://github.com/DarkBreakerZero/PSER">Code</a>
     </div>
+
+    <details>
+      <summary>Show details</summary>
+      <div class="detail-box">
+        This work targets severe streak artifacts and vascular structure degradation in sparse-view 3D-DSA. The framework first performs coarse 3D restoration with weighted convolution and wavelet-domain enhancement, then applies a 2.5D refinement network with dynamic snake convolution to better preserve tortuous vascular structures and fine vessel continuity.
+      </div>
+    </details>
   </div>
 
   <div class="pub-card med">
@@ -436,6 +443,13 @@ summary {
       <span class="metric">CAS Q1 / 中科院一区</span>
       <span class="metric">Under Review</span>
     </div>
+
+    <details>
+      <summary>Show details</summary>
+      <div class="detail-box">
+        DSANet addresses motion artifacts caused by misalignment between mask and live images in DSA imaging. It uses a coarse-to-fine pipeline: an initial DSA imaging stage generates preliminary vessel images, and a pseudo aligned dataset is then constructed to train a dynamic snake convolution attention network for artifact suppression and vessel detail preservation.
+      </div>
+    </details>
   </div>
 
   <div class="pub-card med">
@@ -462,6 +476,13 @@ summary {
       <span class="metric">Under Review</span>
       <span class="metric">First Author</span>
     </div>
+
+    <details>
+      <summary>Show details</summary>
+      <div class="detail-box">
+        PDAO-Net formulates sparse-view 3D-DSA reconstruction as a dual-domain alternating optimization process. It combines projection-domain correction, image-domain refinement, and measured-view replacement to enforce physical consistency while recovering small vascular branches and maintaining vessel continuity under incomplete angular sampling.
+      </div>
+    </details>
   </div>
 
   <div class="pub-card cv">
@@ -487,6 +508,13 @@ summary {
       <span class="metric">CCF C</span>
       <span class="metric">Under Review</span>
     </div>
+
+    <details>
+      <summary>Show details</summary>
+      <div class="detail-box">
+        StructMamba-Seg introduces Boundary-Context Guided Deformable Scan into a Mamba-based segmentation framework. The method uses local features, boundary prompts, and multi-scale context to adapt scan positions and ordering to segmentation-specific structures such as boundaries, small objects, thin regions, and ambiguous areas.
+      </div>
+    </details>
   </div>
 
   <div class="pub-card rs">
@@ -512,6 +540,13 @@ summary {
       <span class="metric">CCF C</span>
       <span class="metric">Under Review</span>
     </div>
+
+    <details>
+      <summary>Show details</summary>
+      <div class="detail-box">
+        This work focuses on low-light remote sensing image enhancement, where weak illumination and sensor noise can damage both radiometry and semantic structure. The method introduces geometric and semantic priors to guide restoration, aiming to recover visually faithful images while preserving land-cover boundaries and high-level scene information.
+      </div>
+    </details>
   </div>
 </div>
 
