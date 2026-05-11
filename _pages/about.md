@@ -258,6 +258,11 @@ redirect_from:
   box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
 }
 
+.detail-box .pub-figure {
+  max-width: 760px;
+  margin: 18px auto 0;
+}
+
 .metric-row {
   margin-top: 14px;
   display: flex;
@@ -426,12 +431,6 @@ summary {
       A progressive structure-enhanced restoration framework for sparse-view 3D-DSA that combines coarse 3D restoration and fine 2.5D refinement to suppress artifacts and recover vascular continuity.
     </div>
 
-    <div class="pub-figure multi">
-      <img src="/images/publications/pser-fig1.jpg" alt="PSER vascular morphology motivation">
-      <img src="/images/publications/pser-fig2.jpg" alt="PSER progressive restoration framework">
-      <img src="/images/publications/pser-fig3.jpg" alt="PSER network architecture">
-    </div>
-
     <div class="metric-row">
       <span class="metric">CAS Q1 / 中科院一区</span>
       <span class="metric">Major Revision</span>
@@ -442,6 +441,11 @@ summary {
       <summary>Show details</summary>
       <div class="detail-box">
         This work targets severe streak artifacts and vascular structure degradation in sparse-view 3D-DSA. The framework first performs coarse 3D restoration with weighted convolution and wavelet-domain enhancement, then applies a 2.5D refinement network with dynamic snake convolution to better preserve tortuous vascular structures and fine vessel continuity.
+        <div class="pub-figure multi">
+          <img src="/images/publications/pser-fig1.jpg" alt="PSER vascular morphology motivation">
+          <img src="/images/publications/pser-fig2.jpg" alt="PSER progressive restoration framework">
+          <img src="/images/publications/pser-fig3.jpg" alt="PSER network architecture">
+        </div>
       </div>
     </details>
   </div>
@@ -465,11 +469,6 @@ summary {
       A coarse-to-fine DSA imaging network that uses pseudo aligned data and dynamic snake convolution attention to suppress motion artifacts while preserving vascular structure.
     </div>
 
-    <div class="pub-figure multi">
-      <img src="/images/publications/dsanet-fig1.jpg" alt="DSANet coarse-to-fine imaging framework">
-      <img src="/images/publications/dsanet-fig2.jpg" alt="DSANet dynamic snake convolution attention architecture">
-    </div>
-
     <div class="metric-row">
       <span class="metric">CAS Q1 / 中科院一区</span>
       <span class="metric">Under Review</span>
@@ -479,6 +478,10 @@ summary {
       <summary>Show details</summary>
       <div class="detail-box">
         DSANet addresses motion artifacts caused by misalignment between mask and live images in DSA imaging. It uses a coarse-to-fine pipeline: an initial DSA imaging stage generates preliminary vessel images, and a pseudo aligned dataset is then constructed to train a dynamic snake convolution attention network for artifact suppression and vessel detail preservation.
+        <div class="pub-figure multi">
+          <img src="/images/publications/dsanet-fig1.jpg" alt="DSANet coarse-to-fine imaging framework">
+          <img src="/images/publications/dsanet-fig2.jpg" alt="DSANet dynamic snake convolution attention architecture">
+        </div>
       </div>
     </details>
   </div>
@@ -502,10 +505,6 @@ summary {
       A physics-constrained dual-domain reconstruction framework that alternates between projection-domain correction and image-domain refinement for sparse-view 3D-DSA reconstruction.
     </div>
 
-    <div class="pub-figure">
-      <img src="/images/publications/pdao-net.jpg" alt="PDAO-Net framework">
-    </div>
-
     <div class="metric-row">
       <span class="metric">CCF C</span>
       <span class="metric">Under Review</span>
@@ -516,6 +515,9 @@ summary {
       <summary>Show details</summary>
       <div class="detail-box">
         PDAO-Net formulates sparse-view 3D-DSA reconstruction as a dual-domain alternating optimization process. It combines projection-domain correction, image-domain refinement, and measured-view replacement to enforce physical consistency while recovering small vascular branches and maintaining vessel continuity under incomplete angular sampling.
+        <div class="pub-figure">
+          <img src="/images/publications/pdao-net.jpg" alt="PDAO-Net framework">
+        </div>
       </div>
     </details>
   </div>
@@ -539,10 +541,6 @@ summary {
       A structure-sensitive Mamba model for semantic segmentation that adapts scan control to boundaries, small objects, fine structures, and ambiguous regions.
     </div>
 
-    <div class="pub-figure">
-      <img src="/images/publications/structmamba.jpg" alt="StructMamba-Seg architecture">
-    </div>
-
     <div class="metric-row">
       <span class="metric">CCF C</span>
       <span class="metric">Under Review</span>
@@ -552,6 +550,9 @@ summary {
       <summary>Show details</summary>
       <div class="detail-box">
         StructMamba-Seg introduces Boundary-Context Guided Deformable Scan into a Mamba-based segmentation framework. The method uses local features, boundary prompts, and multi-scale context to adapt scan positions and ordering to segmentation-specific structures such as boundaries, small objects, thin regions, and ambiguous areas.
+        <div class="pub-figure">
+          <img src="/images/publications/structmamba.jpg" alt="StructMamba-Seg architecture">
+        </div>
       </div>
     </details>
   </div>
@@ -575,10 +576,6 @@ summary {
       A low-light remote sensing image enhancement framework that introduces geometric and semantic priors to improve high-quality restoration under weak illumination.
     </div>
 
-    <div class="pub-figure">
-      <img src="/images/publications/gspnet.jpg" alt="GSPNet framework">
-    </div>
-
     <div class="metric-row">
       <span class="metric">CCF C</span>
       <span class="metric">Under Review</span>
@@ -588,6 +585,9 @@ summary {
       <summary>Show details</summary>
       <div class="detail-box">
         This work focuses on low-light remote sensing image enhancement, where weak illumination and sensor noise can damage both radiometry and semantic structure. The method introduces geometric and semantic priors to guide restoration, aiming to recover visually faithful images while preserving land-cover boundaries and high-level scene information.
+        <div class="pub-figure">
+          <img src="/images/publications/gspnet.jpg" alt="GSPNet framework">
+        </div>
       </div>
     </details>
   </div>
