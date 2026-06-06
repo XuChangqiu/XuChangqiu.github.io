@@ -1,0 +1,186 @@
+<div class="home-section" id="publications">
+  <div class="home-title" data-icon="📚">Publications</div>
+
+  <div class="pub-card med">
+    <div class="pub-label med">Medical Imaging · 3D-DSA</div>
+
+    <div class="pub-title">
+      Vascular Morphology Motivated Progressive Structure-Enhanced Restoration for Sparse-view 3D-DSA
+    </div>
+
+    <div class="pub-authors">
+      Yikun Zhang, <strong>Changqiu Xu</strong>, Shiyu Zhu, Weilong Mao, Jun Xiang, Rongjun Ge, Jian Yang, Yang Chen
+    </div>
+
+    <div class="pub-venue">
+      IEEE Journal of Biomedical and Health Informatics (JCR Q1 / 中科院一区), major revision
+    </div>
+
+    <div class="pub-short">
+      A progressive structure-enhanced restoration framework for sparse-view 3D-DSA that combines coarse 3D restoration and fine 2.5D refinement to suppress artifacts and recover vascular continuity.
+    </div>
+
+    <div class="metric-row">
+      <span class="metric">JCR Q1 / 中科院一区</span>
+      <span class="metric">Major Revision</span>
+      <span class="metric">Student First Author</span>
+      <a class="metric" href="https://github.com/DarkBreakerZero/PSER">Code</a>
+    </div>
+
+    <details>
+      <summary>Show details</summary>
+      <div class="detail-box">
+        This work targets severe streak artifacts and vascular structure degradation in sparse-view 3D-DSA. The framework first performs coarse 3D restoration with weighted convolution and wavelet-domain enhancement, then applies a 2.5D refinement network with dynamic snake convolution to better preserve tortuous vascular structures and fine vessel continuity.
+        <div class="pub-figure multi">
+          <img src="/images/publications/pser-fig1.jpg" alt="PSER vascular morphology motivation">
+          <img src="/images/publications/pser-fig3.jpg" alt="PSER network architecture">
+        </div>
+      </div>
+    </details>
+  </div>
+
+  <div class="pub-card med">
+    <div class="pub-label med">Medical Imaging · DSA</div>
+
+    <div class="pub-title">
+      DSANet: Dynamic Snake Convolution Attention Network for Coarse-to-Fine DSA Imaging using Pseudo Aligned Dataset
+    </div>
+
+    <div class="pub-authors">
+      Shiyu Zhu, <strong>Changqiu Xu</strong>, Weilong Mao, Jun Xiang, Rongjun Ge, Yikun Zhang, Yang Chen
+    </div>
+
+    <div class="pub-venue">
+      IEEE Journal of Biomedical and Health Informatics (JCR Q1 / 中科院一区), under review
+    </div>
+
+    <div class="pub-short">
+      A coarse-to-fine DSA imaging network that uses pseudo aligned data and dynamic snake convolution attention to suppress motion artifacts while preserving vascular structure.
+    </div>
+
+    <div class="metric-row">
+      <span class="metric">JCR Q1 / 中科院一区</span>
+      <span class="metric">Under Review</span>
+      <span class="metric">Second Author</span>
+    </div>
+
+    <details>
+      <summary>Show details</summary>
+      <div class="detail-box">
+        DSANet addresses motion artifacts caused by misalignment between mask and live images in DSA imaging. It uses a coarse-to-fine pipeline: an initial DSA imaging stage generates preliminary vessel images, and a pseudo aligned dataset is then constructed to train a dynamic snake convolution attention network for artifact suppression and vessel detail preservation.
+        <div class="pub-figure multi">
+          <img src="/images/publications/dsanet-fig1.jpg" alt="DSANet coarse-to-fine imaging framework">
+          <img src="/images/publications/dsanet-fig2-v2.jpg" alt="DSANet dynamic snake convolution attention architecture">
+        </div>
+      </div>
+    </details>
+  </div>
+
+  <div class="pub-card med">
+    <div class="pub-label med">Medical Imaging · Sparse-view Reconstruction</div>
+
+    <div class="pub-title">
+      PDAO-Net: A Physics-Constrained Dual-Domain Alternating Optimization Network for Sparse-View 3D-DSA Reconstruction
+    </div>
+
+    <div class="pub-authors">
+      <strong>Changqiu Xu</strong>, Xi Wang, Yujia Li, Tong Liang, Kang Yang, Longfei Xiao, Yikun Zhang, Yang Chen
+    </div>
+
+    <div class="pub-venue">
+      International Conference on Neural Information Processing (ICONIP), 2026 (CCF C), under review
+    </div>
+
+    <div class="pub-short">
+      A physics-constrained dual-domain reconstruction framework that alternates between projection-domain correction and image-domain refinement for sparse-view 3D-DSA reconstruction.
+    </div>
+
+    <div class="metric-row">
+      <span class="metric">CCF C</span>
+      <span class="metric">Under Review</span>
+      <span class="metric">First Author</span>
+    </div>
+
+    <details>
+      <summary>Show details</summary>
+      <div class="detail-box">
+        PDAO-Net formulates sparse-view 3D-DSA reconstruction as a dual-domain alternating optimization process. It combines projection-domain correction, image-domain refinement, and measured-view replacement to enforce physical consistency while recovering small vascular branches and maintaining vessel continuity under incomplete angular sampling.
+        <div class="pub-figure">
+          <img src="/images/publications/pdao-net.jpg" alt="PDAO-Net framework">
+        </div>
+      </div>
+    </details>
+  </div>
+
+  <div class="pub-card cv">
+    <div class="pub-label cv">Semantic Segmentation · Mamba</div>
+
+    <div class="pub-title">
+      StructMamba-Seg: Boundary-Context Guided Deformable Scan for Semantic Segmentation
+    </div>
+
+    <div class="pub-authors">
+      Longfei Xiao, Linlin Zhang, Kang Yang, <strong>Changqiu Xu</strong>, Shuyu Liu, Jianfang Wang
+    </div>
+
+    <div class="pub-venue">
+      International Conference on Neural Information Processing (ICONIP), 2026 (CCF C), under review
+    </div>
+
+    <div class="pub-short">
+      A structure-sensitive Mamba model for semantic segmentation that adapts scan control to boundaries, small objects, fine structures, and ambiguous regions.
+    </div>
+
+    <div class="metric-row">
+      <span class="metric">CCF C</span>
+      <span class="metric">Under Review</span>
+      <span class="metric">Fourth Author</span>
+    </div>
+
+    <details>
+      <summary>Show details</summary>
+      <div class="detail-box">
+        StructMamba-Seg introduces Boundary-Context Guided Deformable Scan into a Mamba-based segmentation framework. The method uses local features, boundary prompts, and multi-scale context to adapt scan positions and ordering to segmentation-specific structures such as boundaries, small objects, thin regions, and ambiguous areas.
+        <div class="pub-figure">
+          <img src="/images/publications/structmamba.jpg" alt="StructMamba-Seg architecture">
+        </div>
+      </div>
+    </details>
+  </div>
+
+  <div class="pub-card rs">
+    <div class="pub-label rs">Remote Sensing · Low-light Enhancement</div>
+
+    <div class="pub-title">
+      Towards High-quality Low-Light Remote Sensing Image Enhancement via Geometric and Semantic Prior Guidance
+    </div>
+
+    <div class="pub-authors">
+      Kang Yang, Jiaqi Zhang, <strong>Changqiu Xu</strong>, Longfei Xiao, Tong Liang, Zesheng Zhang
+    </div>
+
+    <div class="pub-venue">
+      International Conference on Neural Information Processing (ICONIP), 2026 (CCF C), under review
+    </div>
+
+    <div class="pub-short">
+      A low-light remote sensing image enhancement framework that introduces geometric and semantic priors to improve high-quality restoration under weak illumination.
+    </div>
+
+    <div class="metric-row">
+      <span class="metric">CCF C</span>
+      <span class="metric">Under Review</span>
+      <span class="metric">Third Author</span>
+    </div>
+
+    <details>
+      <summary>Show details</summary>
+      <div class="detail-box">
+        This work focuses on low-light remote sensing image enhancement, where weak illumination and sensor noise can damage both radiometry and semantic structure. The method introduces geometric and semantic priors to guide restoration, aiming to recover visually faithful images while preserving land-cover boundaries and high-level scene information.
+        <div class="pub-figure">
+          <img src="/images/publications/gspnet.jpg" alt="GSPNet framework">
+        </div>
+      </div>
+    </details>
+  </div>
+</div>

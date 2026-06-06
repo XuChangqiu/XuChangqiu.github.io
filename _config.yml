@@ -22,7 +22,7 @@ baidu_site_verification  :
 # Site Author
 author:
   name             : "Changqiu Xu"
-  avatar           : "images/profile.jpg"
+  avatar           : "/images/id-photo.jpg"
   bio              : "Undergraduate Student in Internet of Things Engineering"
   location         : "Zhengzhou, Henan, China"
   employer         : "Henan University of Economics and Law"
