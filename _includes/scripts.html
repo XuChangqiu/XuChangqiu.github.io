@@ -1,4 +1,31 @@
 <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+<script>
+  (function() {
+    function setLanguage(language) {
+      var normalized = language === 'zh' ? 'zh' : 'en';
+      document.documentElement.setAttribute('data-lang', normalized);
+      document.documentElement.setAttribute('lang', normalized === 'zh' ? 'zh-CN' : 'en');
+      try {
+        localStorage.setItem('cq-language', normalized);
+      } catch (error) {}
+      var buttons = document.querySelectorAll('[data-language-toggle]');
+      buttons.forEach(function(button) {
+        button.setAttribute('aria-pressed', normalized === 'zh' ? 'true' : 'false');
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var current = document.documentElement.getAttribute('data-lang') || 'en';
+      setLanguage(current);
+      document.querySelectorAll('[data-language-toggle]').forEach(function(button) {
+        button.addEventListener('click', function() {
+          var next = document.documentElement.getAttribute('data-lang') === 'zh' ? 'en' : 'zh';
+          setLanguage(next);
+        });
+      });
+    });
+  })();
+</script>
 
 {% include analytics.html %}
 {% if site.author.googlescholar %}

@@ -9,6 +9,28 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}"/>
 
+<style>
+  html[data-lang="en"] .lang-zh,
+  html[data-lang="zh"] .lang-en,
+  html:not([data-lang]) .lang-zh {
+    display: none !important;
+  }
+
+  .greedy-nav .language-toggle {
+    position: static;
+    height: auto;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+    color: #374151;
+    border-radius: 999px;
+    padding: 5px 12px;
+    font-size: 0.82rem;
+    font-weight: 800;
+    line-height: 1.2;
+    cursor: pointer;
+  }
+</style>
+
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({

@@ -1,4 +1,30 @@
 <style>
+html[data-lang="en"] .lang-zh,
+html[data-lang="zh"] .lang-en,
+html:not([data-lang]) .lang-zh {
+  display: none !important;
+}
+
+.greedy-nav .language-toggle {
+  position: static;
+  height: auto;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  color: #374151;
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  line-height: 1.2;
+  cursor: pointer;
+  box-shadow: 0 2px 7px rgba(15, 23, 42, 0.06);
+}
+
+.greedy-nav .language-toggle:hover {
+  color: #2563eb;
+  border-color: #93c5fd;
+}
+
 .home-section {
   margin: 34px 0 44px 0;
 }
@@ -391,6 +417,45 @@ summary {
   line-height: 1.85;
 }
 
+.life-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.life-photo-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 7px 20px rgba(15, 23, 42, 0.05);
+}
+
+.life-photo-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: #f3f4f6;
+}
+
+.life-photo-body {
+  padding: 13px 14px 15px;
+}
+
+.life-photo-title {
+  font-weight: 850;
+  color: #111827;
+  margin-bottom: 5px;
+}
+
+.life-photo-text {
+  color: #4b5563;
+  line-height: 1.65;
+  font-size: 0.92rem;
+}
+
 @media (max-width: 768px) {
   .bio-card,
   .info-card,
@@ -403,6 +468,10 @@ summary {
   .news-item {
     grid-template-columns: 1fr;
     gap: 6px;
+  }
+
+  .greedy-nav .language-toggle {
+    margin-left: 0;
   }
 }
 </style>

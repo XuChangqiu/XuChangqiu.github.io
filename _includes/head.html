@@ -8,6 +8,16 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  (function() {
+    try {
+      var storedLanguage = localStorage.getItem('cq-language') || 'en';
+      var language = storedLanguage === 'zh' ? 'zh' : 'en';
+      document.documentElement.setAttribute('data-lang', language);
+      document.documentElement.setAttribute('lang', language === 'zh' ? 'zh-CN' : 'en');
+    } catch (error) {
+      document.documentElement.setAttribute('data-lang', 'en');
+    }
+  })();
 </script>
 
 <!-- For all browsers -->

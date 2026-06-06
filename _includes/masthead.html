@@ -4,10 +4,19 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ '/' | relative_url }}">Changqiu Xu</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
+            <a href="{{ '/' | relative_url }}"><span class="lang-en">Changqiu Xu</span><span class="lang-zh">徐长秋</span></a>
+          </li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item">
+              <a href="{{ link.url | relative_url }}"><span class="lang-en">{{ link.title }}</span><span class="lang-zh">{{ link.title_zh | default: link.title }}</span></a>
+            </li>
           {% endfor %}
+          <li class="masthead__menu-item masthead__lang-item">
+            <button class="language-toggle" type="button" data-language-toggle aria-label="Toggle language">
+              <span class="lang-en">中文</span><span class="lang-zh">EN</span>
+            </button>
+          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
