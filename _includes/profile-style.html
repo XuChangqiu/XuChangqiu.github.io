@@ -37,6 +37,11 @@
   margin-left: 4px;
 }
 
+.home-title.sub-title {
+  margin-top: 30px;
+  font-size: 1.32rem;
+}
+
 .bio-card {
   border: 1px solid #e5e7eb;
   border-radius: 18px;
@@ -298,6 +303,7 @@ summary {
   padding: 24px 28px;
   background: #ffffff;
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.045);
+  margin: 18px 0;
 }
 
 .project-title {
@@ -339,12 +345,64 @@ summary {
   line-height: 1.7;
 }
 
+.news-list {
+  display: grid;
+  gap: 14px;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 116px 1fr;
+  gap: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 16px 18px;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
+}
+
+.news-date {
+  font-weight: 850;
+  color: #2563eb;
+}
+
+.news-text {
+  color: #374151;
+  line-height: 1.75;
+}
+
+.life-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 24px 28px;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.045);
+}
+
+.life-title {
+  font-size: 1.16rem;
+  font-weight: 850;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.life-text {
+  color: #374151;
+  line-height: 1.85;
+}
+
 @media (max-width: 768px) {
   .bio-card,
   .info-card,
   .pub-card,
-  .project-card {
+  .project-card,
+  .life-card {
     padding: 20px 18px;
+  }
+
+  .news-item {
+    grid-template-columns: 1fr;
+    gap: 6px;
   }
 }
 </style>

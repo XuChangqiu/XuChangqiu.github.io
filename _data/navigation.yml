@@ -1,5 +1,8 @@
 # main links
 main:
+  - title: "News"
+    url: /news/
+
   - title: "Education"
     url: /education/
 
@@ -9,5 +12,5 @@ main:
   - title: "Project"
     url: /project/
 
-  - title: "Awards"
-    url: /awards/
+  - title: "Life"
+    url: /life/

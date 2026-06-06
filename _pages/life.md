@@ -1,9 +1,9 @@
 ---
-permalink: /awards/
-title: "Awards"
+permalink: /life/
+title: "Life"
 excerpt: ""
 author_profile: true
 ---
 
 {% include profile-style.html %}
-{% include profile-awards.html %}
+{% include profile-life.html %}

@@ -1,13 +1,9 @@
 ---
-permalink: /
-title: "Homepage"
+permalink: /news/
+title: "News"
 excerpt: ""
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 {% include profile-style.html %}
-{% include profile-home.html %}
 {% include profile-news.html %}
