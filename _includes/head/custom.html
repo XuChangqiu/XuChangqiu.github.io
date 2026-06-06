@@ -112,12 +112,18 @@
     display: block;
   }
 
-  .author__avatar img,
-  img.author__avatar {
+  .profile_box > .author__avatar {
+    display: block;
+    width: 187px;
+    min-width: 187px;
+  }
+
+  .profile_box > .author__avatar img.author__avatar {
     display: block;
     width: 175px;
     height: 175px;
-    max-width: 100%;
+    max-width: none;
+    min-width: 0;
     object-fit: cover;
     object-position: center 35%;
     border-radius: 50%;
@@ -179,10 +185,15 @@
       align-items: center;
     }
 
-    .author__avatar img,
-    img.author__avatar {
+    .profile_box > .author__avatar {
+      width: 96px;
+      min-width: 96px;
+    }
+
+    .profile_box > .author__avatar img.author__avatar {
       width: 84px;
       height: 84px;
+      max-width: none;
     }
 
     .visible-links {
