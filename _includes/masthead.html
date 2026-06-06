@@ -12,14 +12,12 @@
               <a href="{{ link.url | relative_url }}"><span class="lang-en">{{ link.title }}</span><span class="lang-zh">{{ link.title_zh | default: link.title }}</span></a>
             </li>
           {% endfor %}
-          <li class="masthead__menu-item masthead__lang-item">
-            <button class="language-toggle" type="button" data-language-toggle aria-label="Toggle language">
-              <span class="lang-en">中文</span><span class="lang-zh">EN</span>
-            </button>
-          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <button class="site-language-toggle" type="button" data-language-toggle aria-label="Toggle language">
+        <span class="lang-en">中文</span><span class="lang-zh">EN</span>
+      </button>
     </div>
   </div>
 </div>

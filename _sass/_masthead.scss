@@ -34,12 +34,39 @@
 }
 
 .masthead__menu {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  .greedy-nav {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
 
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
+  }
+}
+
+.site-language-toggle {
+  flex: 0 0 auto;
+  border: 1px solid $border-color;
+  background: #ffffff;
+  color: $masthead-link-color;
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.2;
+  cursor: pointer;
+  box-shadow: 0 2px 7px rgba(15, 23, 42, 0.06);
+
+  &:hover {
+    color: $masthead-link-color-hover;
+    border-color: mix(#fff, $primary-color, 55%);
   }
 }
 
@@ -60,5 +87,4 @@
     font-weight: 700;
   }
 }
-
 
